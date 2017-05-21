@@ -1,0 +1,6 @@
+<map id="BetaGrpSnpMiss" name="BetaGrpSnpMiss">
+<area shape="rect" id="node4" href="$class_beta_grp_p_s_rmiss.html" title="Single&#45;SNP regression with partial effects and missing data. " alt="" coords="5,229,131,256"/>
+<area shape="rect" id="node5" href="$class_beta_grp_snp_miss_c_v.html" title="Single&#45;SNP regression with conditional variance and missing data. " alt="" coords="156,229,297,256"/>
+<area shape="rect" id="node2" href="$class_mu_grp.html" title="Hierarchical mean. " alt="" coords="115,80,177,107"/>
+<area shape="rect" id="node3" href="$class_grp.html" title="Base location parameter group class. " alt="" coords="125,5,168,32"/>
+</map>
