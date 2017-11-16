@@ -6,7 +6,7 @@ Documentation is available for the following projects:
 
  - [MuGen](/MuGen)
  - [align2bed](/align2bed)
- 
+ - [sampleSNPs](/sampleSNPs)
 
 
 
