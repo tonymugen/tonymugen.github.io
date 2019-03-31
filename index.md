@@ -8,5 +8,8 @@ Documentation is available for the following projects:
  - [align2bed](/align2bed)
  - [sampleSNPs](/sampleSNPs)
 
+I run [Arch Linux](https://www.archlinux.org/) on my computers. Here are Arch installation instructions for
 
+ - [Lenovo ThinkPad X1 Carbon](/ArchLinuxThinkPadX1C4gen.md)
+ - [Sytem76 OryxPro](/ArchLinuxSys76OP.md)
 
