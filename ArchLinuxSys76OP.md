@@ -176,7 +176,7 @@ Encrypt the future LVM container:
 	cryptsetup luksFormat —-type luks1 /dev/nvme0n1p2
 	cryptsetup open /dev/nvme0n1p2 cryptlvm
 
-I have to use `luks1` because GRUB does not support `luks2` as of this writing. That is not an issue in the ThinkPad set-up, as far as I can tell because I am booting from BIOS there rather than EFI. Prepare the logical volumes:
+I have to use `luks1` because GRUB does not support `luks2` as of this writing. That is not an issue in the [ThinkPad](/ArchLinuxThinkPadX1C4gen.md) set-up, as far as I can tell because I am booting from BIOS there rather than EFI. Prepare the logical volumes:
 
 	pvcreate /dev/mapper/cryptlvm
 	vgcreate MainVolGroup /dev/mapper/cryptlvm
