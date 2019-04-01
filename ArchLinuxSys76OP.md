@@ -127,7 +127,7 @@ I want to have full-disk encryption, with the exception of the boot partition an
 
 I used the `archlinux-2019.01.01-x86_64.iso`, put it on a USB flash drive using `dd` (standard procedure).
 
-Inserted the USB drive, booted while pressing `F7` on boot to enter the boot disk picker. Once there, press `e` to enter kernel command line options. Add `video=1920x1080` to enlarge the console fonts (the machine I have has the 4K screen and the default resolution makes the letters tiny) and `module_blacklist=nouveau` to switch off the NVIDIA GPU for now. The commands should be separated by space and entered at the end of the line. Switching off the `nouveau` driver is necessary, otherwise any hardware listing (such as `lspci`) will hang with fans blazing. The WiFi card has functional firmware, checked by running
+Inserted the USB drive, booted while pressing `F7` on boot to enter the boot disk picker. Once there, press `e` to enter kernel command line options. Add `video=1920x1080` to enlarge the console fonts (the machine I have the 4K screen and the default resolution makes the letters tiny) and `module_blacklist=nouveau` to switch off the NVIDIA GPU for now. The commands should be separated by space and entered at the end of the line. Switching off the `nouveau` driver is necessary, otherwise any hardware listing (such as `lspci`) will hang with fans blazing. The WiFi card has functional firmware, checked by running
 
 	lspci -k
 	dmseg | grep iwlwifi
@@ -292,7 +292,7 @@ To enable `sudo` for the user, uncomment the `%wheel ALL=(ALL) ALL` line in `/et
 
 	pacman -S linux-headers
 
-Now install the kernel modules (mostly following the instructions [here](https://ebobby.org/2018/07/15/archlinux-on-oryp4/):
+Now install the kernel modules (mostly following the instructions [here](https://ebobby.org/2018/07/15/archlinux-on-oryp4/)):
 
 	git clone https://aur.archlinux.org/system76-dkms.git
 	cd system76-dkms
