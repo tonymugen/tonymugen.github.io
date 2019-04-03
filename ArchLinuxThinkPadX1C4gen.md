@@ -252,17 +252,11 @@ Add a version of the i3 window manager along with some needed add-ons.
 
 	pacman -S i3-gaps i3status i3blocks i3lock termite termite-terminfo dmenu network-manager-applet feh compton arandr
 
-Copy fonts that I have in the `add_fonts` directory in this repository to `$HOME/.local/share/fonts` (a.k.a `$XDG_CONFIG_HOME/share/fonts`), then run
+Copy fonts that I have in the `add_fonts` directory in my [dotfiles](https://github.com/tonymugen/dotfiles) to `$HOME/.local/share/fonts` (a.k.a `/etc/fonts`), then run
 
 	fc-cache -v
 
-for `fontconfig` to recognize them (check with `fc-list`). To make extra sure that other applications can use the fonts,
-
-	cd .local/share/fonts
-	mkfontscale
-	mkfontdir
-
-To set up a good-looking environment, I need to install
+for `fontconfig` to recognize them (check with `fc-list`). To set up a good-looking environment, I need to install
 
 	pacman -S arc-gtk-theme lxappearance pulseaudio pavucontrol lm_sensors psensor acpi scrot sysstat
 
@@ -270,11 +264,11 @@ For a graphical login, I use `lightDM`.
 
 	pacman -S lightdm lightdm-gtk-greeter
 
-I included the modified config files in the `systemwide_config` directory in this repository. Move `lightdm.conf` and `lightdm-gtk-greeter.conf` to `/etc/lightdm`. Add any images you want for background to `/usr/share/backgrounds`.
+I included the modified config files in the `systemwide_config` directory from my [dotfiles](https://github.com/tonymugen/dotfiles). Move `lightdm.conf` and `lightdm-gtk-greeter.conf` to `/etc/lightdm`. Add any images you want for background to `/usr/share/backgrounds`.
 
 ### Vim
 
-Next, I set up my vim environment. I move the `.vimrc` and `.vim` from this repository to the home directory. For `YouCompleteMe` to work, I need to install `cmake`:
+I clone my [dotfiles](https://github.com/tonymugen/dotfiles) to the home directory. It includes the `.vimrc` and the `.vim` directory. For `YouCompleteMe` to work, I need to install `cmake`:
 
 	pacman -S cmake clang python2 boost
 

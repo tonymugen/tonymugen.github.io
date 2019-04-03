@@ -127,7 +127,7 @@ I want to have full-disk encryption, with the exception of the boot partition an
 
 I used the `archlinux-2019.01.01-x86_64.iso`, put it on a USB flash drive using `dd` (standard procedure).
 
-Inserted the USB drive, booted while pressing `F7` on boot to enter the boot disk picker. Once there, press `e` to enter kernel command line options. Add `video=1920x1080` to enlarge the console fonts (the machine I have the 4K screen and the default resolution makes the letters tiny) and `module_blacklist=nouveau` to switch off the NVIDIA GPU for now. The commands should be separated by space and entered at the end of the line. Switching off the `nouveau` driver is necessary, otherwise any hardware listing (such as `lspci`) will hang with fans blazing. The WiFi card has functional firmware, checked by running
+Inserted the USB drive, booted while pressing `F7` on boot to enter the boot disk picker. Once there, press `e` to enter kernel command line options. Add `video=1920x1080` to enlarge the console fonts (I have the 4K screen version of Oryx Pro and the default resolution makes the letters tiny) and `module_blacklist=nouveau` to switch off the NVIDIA GPU for now. The commands should be separated by space and entered at the end of the line. Switching off the `nouveau` driver is necessary, otherwise any hardware listing (such as `lspci`) will hang with fans blazing. The WiFi card has functional firmware, checked by running
 
 	lspci -k
 	dmseg | grep iwlwifi
@@ -145,7 +145,7 @@ I want to use LVM on LUKS to get full-disk encryption, including the SWAP. `/boo
 
 ## Disk preparation
 
-Partition the target disk (here, it is `/dev/sda`).
+Partition the target disk (here, it is `/dev/nvme0n1`).
 
 To list partitions:
 
@@ -375,7 +375,7 @@ Copy fonts that I have in the `add_fonts` directory in this repository to the fr
 
 	fc-cache -v
 
-for `fontconfig` to recognize them (check with `fc-list`). Copy the `local.conf` file from the `systemwide_conf` directory to `/etc/fonts`. Copy the `60-fonts.conf` to `/etc/X11/xorg.conf.d`.
+for `fontconfig` to recognize them (check with `fc-list`). Copy the `local.conf` file from the `systemwide_conf` directory (I keep in my [dotfiles](https://github.com/tonymugen/dotfiles) to `/etc/fonts`. Copy the `60-fonts.conf` to `/etc/X11/xorg.conf.d`.
 
 To set up a good-looking environment, I need to install
 
@@ -385,11 +385,11 @@ For a graphical login, I use `lightDM`.
 
 	pacman -S lightdm lightdm-gtk-greeter
 
-I included the modified config files in the `systemwide_config` directory in this repository. Move `lightdm.conf` and `lightdm-gtk-greeter.conf` to `/etc/lightdm`. Add any images you want for background to `/usr/share/pixmap`.
+I included the modified config files in the `systemwide_config` directory in my [dotfiles](https://github.com/tonymugen/dotfiles). Move `lightdm.conf` and `lightdm-gtk-greeter.conf` to `/etc/lightdm`. Add any images you want for background to `/usr/share/pixmap`.
 
 ### Vim
 
-Next, I set up my vim environment. I move the `.vimrc` and `.vim` from this repository to the home directory. For `YouCompleteMe` to work, I need to install `cmake`:
+I clone my [dotfile](https://github.com/tonymugen/dotfiles) repo to get the `.vimrc` and the `.vim` directory. For `YouCompleteMe` to work, I need to install `cmake`:
 
 	pacman -S cmake clang python2 boost
 
