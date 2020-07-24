@@ -236,7 +236,7 @@ Edit `/etc/mkinitcpio.conf` (this is now on the target drive):
 
 	mkinitcpio -p linux
 
-Use `blkid` to list UUIDs of devices. Edit `/etc/default/grub` to modify variables. Append "lvm" to `GRUB_PRELOAD_MODULES`. Uncomment the `GRUB_ENABLE_CRYOTDISK=y` line. Append `cryptdevice=UUID=UUID-of-/dev/nvme0n1p2:cryptlvm root=/dev/MainVolGroup/root resume=/dev/MainVolGroup/swap ec_sys.write_support=1 video=1920x1080 module_blacklist=nouveau` to `GRUB_CMDLINE_LINUX_DEFAULT`. The `resume=...` part is for suspend to disk support. Install GRUB on EFI:
+Use `blkid` to list UUIDs of devices. Edit `/etc/default/grub` to modify variables. Append "lvm" to `GRUB_PRELOAD_MODULES`. Uncomment the `GRUB_ENABLE_CRYPTDISK=y` line. Append `cryptdevice=UUID=UUID-of-/dev/nvme0n1p2:cryptlvm root=/dev/MainVolGroup/root resume=/dev/MainVolGroup/swap ec_sys.write_support=1 video=1920x1080 module_blacklist=nouveau` to `GRUB_CMDLINE_LINUX_DEFAULT`. The `resume=...` part is for suspend to disk support. Install GRUB on EFI:
 
 	grub-install --target=x86_64-efi --efi-directory=/boot/efi --bootloader-id=ArchLinuxGRUB 
 
