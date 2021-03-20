@@ -1,9 +1,0 @@
-<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$class_d_w_m_bspace_1_1_module.html" title="Base module class." alt="" coords="5,132,152,159"/>
-<area shape="rect" id="node2" href="$class_d_w_m_bspace_1_1_module_battery.html" title="Battery state." alt="" coords="200,5,387,32"/>
-<area shape="rect" id="node3" href="$class_d_w_m_bspace_1_1_module_c_p_u.html" title="CPU status." alt="" coords="206,56,381,83"/>
-<area shape="rect" id="node4" href="$class_d_w_m_bspace_1_1_module_date.html" title="Time and date." alt="" coords="207,107,380,133"/>
-<area shape="rect" id="node5" href="$class_d_w_m_bspace_1_1_module_disk.html" title="Disk free space." alt="" coords="207,157,379,184"/>
-<area shape="rect" id="node6" href="$class_d_w_m_bspace_1_1_module_extern.html" title="External scripts." alt="" coords="202,208,385,235"/>
-<area shape="rect" id="node7" href="$class_d_w_m_bspace_1_1_module_r_a_m.html" title="Free memory." alt="" coords="206,259,381,285"/>
-</map>

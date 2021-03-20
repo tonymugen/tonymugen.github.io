@@ -1,6 +1,0 @@
-<map id="BetaGrpSnp" name="BetaGrpSnp">
-<area shape="rect" id="node4" href="$class_beta_grp_p_s_r.html" title="Single&#45;SNP regression with partial effects. " alt="" coords="5,229,104,256"/>
-<area shape="rect" id="node5" href="$class_beta_grp_snp_c_v.html" title="Single&#45;SNP regression with conditional variance. " alt="" coords="129,229,241,256"/>
-<area shape="rect" id="node2" href="$class_mu_grp.html" title="Hierarchical mean. " alt="" coords="89,80,151,107"/>
-<area shape="rect" id="node3" href="$class_grp.html" title="Base location parameter group class. " alt="" coords="98,5,141,32"/>
-</map>

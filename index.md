@@ -2,12 +2,7 @@ I am an independent researcher and freelance data analyst. I mostly focus on qua
 
 This page links to documentation for software and libraries I write and maintain.
 
-Documentation is available for the following projects:
-
-- [MuGen](/MuGen)
-- [align2bed](/align2bed)
-- [sampleSNPs](/sampleSNPs)
-- [dwmbar](/dwmBar)
+I now host all documentation for my software on my [main site](https://www.bayesicresearch.org/software/).
 
 I run [Arch Linux](https://www.archlinux.org/) on my computers. Here are Arch installation instructions for
 

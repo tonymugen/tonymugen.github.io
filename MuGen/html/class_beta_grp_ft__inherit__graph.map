@@ -1,8 +1,0 @@
-<map id="BetaGrpFt" name="BetaGrpFt">
-<area shape="rect" id="node3" href="$class_beta_blk.html" title="Regression with independent blocks of traits. " alt="" coords="5,155,72,181"/>
-<area shape="rect" id="node4" href="$class_beta_grp_b_v_s_r.html" title="Bayesian variable selection regression. " alt="" coords="97,155,204,181"/>
-<area shape="rect" id="node5" href="$class_beta_grp_p_c.html" title="Relationship matrix regression. " alt="" coords="229,155,320,181"/>
-<area shape="rect" id="node7" href="$class_beta_grp_p_e_x.html" title="Multivariate multiple regression with parameter expansion. " alt="" coords="344,155,443,181"/>
-<area shape="rect" id="node2" href="$class_grp.html" title="Base location parameter group class. " alt="" coords="190,5,233,32"/>
-<area shape="rect" id="node6" href="$class_beta_grp_p_cpex.html" title="Multiplicative parameter expansion for PC regression. " alt="" coords="277,229,389,256"/>
-</map>

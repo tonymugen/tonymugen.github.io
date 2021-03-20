@@ -1,5 +1,0 @@
-var searchData=
-[
-  ['operator_2b',['operator+',['../classGrp.html#a9c7fba3c371e41370de7a4fbbafa521f',1,'Grp::operator+()'],['../classGrp.html#aaa5fe9cf482e8a132569432d22005db6',1,'Grp::operator+()'],['../classGrp.html#aa1832734c8259e7a526ef7264463448e',1,'Grp::operator+()'],['../classMuGrp.html#a9c7fba3c371e41370de7a4fbbafa521f',1,'MuGrp::operator+()'],['../classMuGrp.html#aaa5fe9cf482e8a132569432d22005db6',1,'MuGrp::operator+()'],['../classMuGrp.html#aa1832734c8259e7a526ef7264463448e',1,'MuGrp::operator+()']]],
-  ['operator_2d',['operator-',['../classGrp.html#a74cbb8e2e9e51415bdaac51866aacb28',1,'Grp::operator-()'],['../classGrp.html#a0bc502afe20bc32b6a94d11a1a6c5c61',1,'Grp::operator-()'],['../classGrp.html#a96c559c00d54eefc3d2c3060066b977e',1,'Grp::operator-()'],['../classMuGrp.html#a74cbb8e2e9e51415bdaac51866aacb28',1,'MuGrp::operator-()'],['../classMuGrp.html#a0bc502afe20bc32b6a94d11a1a6c5c61',1,'MuGrp::operator-()'],['../classMuGrp.html#a96c559c00d54eefc3d2c3060066b977e',1,'MuGrp::operator-()']]]
-];
